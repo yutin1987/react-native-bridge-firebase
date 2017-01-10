@@ -1,0 +1,27 @@
+{
+  "name": "react-native-bridge-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "YuTin",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.30"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "xcode": "^0.9.1"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "node node_modules/react-native-bridge-firebase/script/postlink",
+      "postunlink": "node node_modules/react-native-bridge-firebase/script/postunlink"
+    }
+  }
+}
