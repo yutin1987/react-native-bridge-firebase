@@ -4,8 +4,8 @@ const fs = require('fs');
 
 const INHERITED = '"$(inherited)"';
 
-const ignoreNodeModules = { ignore: "node_modules/**" };
-const pbxprojPaths = glob.sync("**/*.pbxproj", ignoreNodeModules);
+const ignoreFolders = { ignore: "node_modules/**" };
+const pbxprojPaths = glob.sync("**/*.pbxproj", ignoreFolders);
 const pbxproj = xcode.project(pbxprojPaths[0]);
 const frameworkPath = '../node_modules/react-native-bridge-firebase/ios/Frameworks/';
 

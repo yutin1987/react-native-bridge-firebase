@@ -47,3 +47,4 @@ coverage/
 
 # Firebase
 GoogleService-Info.plist
+google-services.json

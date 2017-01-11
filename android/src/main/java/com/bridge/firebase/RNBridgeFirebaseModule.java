@@ -32,9 +32,7 @@ public class RNBridgeFirebaseModule extends RNBridgeFirebase implements Activity
 
   private RNBridgeFirebaseAnalytics analytics;
   private RNBridgeFirebaseMessage message;
-  private RNBridgeFirebaseStorage storage;
   private RNBridgeFirebaseConfig config;
-  private RNBridgeFirebaseDatabase database;
 
   @Override
   public String getName() {
@@ -48,16 +46,14 @@ public class RNBridgeFirebaseModule extends RNBridgeFirebase implements Activity
 
     analytics = new RNBridgeFirebaseAnalytics(reactContext);
     message = new RNBridgeFirebaseMessage(reactContext);
-    storage = new RNBridgeFirebaseStorage(reactContext);
     config = new RNBridgeFirebaseConfig(reactContext);
-    database = new RNBridgeFirebaseDatabase(reactContext);
 
     message.intentTokenRefreshHandler();
     message.intentMessageHandler();
   }
 
   protected List<RNBridgeFirebase> getModule() {
-    return Arrays.<RNBridgeFirebase>asList(analytics, message, storage, config, database);
+    return Arrays.<RNBridgeFirebase>asList(analytics, message, config);
   }
 
   @Override
@@ -100,13 +96,6 @@ public class RNBridgeFirebaseModule extends RNBridgeFirebase implements Activity
     message.unsubscribeFromTopic(topic);
   }
   // [END message]
-
-  // [START storage]
-  @ReactMethod
-  public void uploadJPG(ReadableMap params, Promise promise) {
-    storage.uploadJPG(params, promise);
-  }
-  // [END storage]
 
   // [START analytics]
   @ReactMethod
@@ -152,48 +141,6 @@ public class RNBridgeFirebaseModule extends RNBridgeFirebase implements Activity
   }
   // [END analytics]
 
-  // [START database]
-  @ReactMethod
-  public void addDataChild(String path, Promise promise) {
-    database.addChild(path, promise);
-  }
-
-  @ReactMethod
-  public void setDataValue(String path, ReadableMap data, Promise promise) {
-    database.setValue(path, data, promise);
-  }
-
-  @ReactMethod
-  public void getDataValue(String path, Promise promise) {
-    database.getValue(path, promise);
-  }
-
-  @ReactMethod
-  public void removeDataValue(String path, Promise promise) {
-    database.removeValue(path, promise);
-  }
-
-  @ReactMethod
-  public void addDataValueListener(String path, Promise promise) {
-    database.addValueListener(path, promise);
-  }
-
-  @ReactMethod
-  public void removeDataValueListener(String path, Promise promise) {
-    database.removeValueListener(path, promise);
-  }
-
-  @ReactMethod
-  public void addDataChildListener(String path, Promise promise) {
-    database.addChildListener(path, promise);
-  }
-
-  @ReactMethod
-  public void removeDataChildListener(String path, Promise promise) {
-    database.removeChildListener(path, promise);
-  }
-  // [END database]
-
   @Override
   public @Nullable Map<String, Object> getConstants() {
     String token = FirebaseInstanceId.getInstance().getToken();
@@ -228,13 +175,6 @@ public class RNBridgeFirebaseModule extends RNBridgeFirebase implements Activity
     configSource.put("REMOTE", FirebaseRemoteConfig.VALUE_SOURCE_REMOTE);
     configSource.put("STATIC", FirebaseRemoteConfig.VALUE_SOURCE_STATIC);
     constant.put("CONFIG_SOURCE", configSource);
-
-    HashMap<String, Integer> dataChild = new HashMap<String, Integer>();
-    dataChild.put("ADDED", RNBridgeFirebaseDatabase.DATA_CHILD_ADDED);
-    dataChild.put("REMOVED", RNBridgeFirebaseDatabase.DATA_CHILD_REMOVED);
-    dataChild.put("CHANGED", RNBridgeFirebaseDatabase.DATA_CHILD_CHANGED);
-    dataChild.put("MOVED", RNBridgeFirebaseDatabase.DATA_CHILD_MOVED);
-    constant.put("DATA_CHILD", dataChild);
 
     return constant;
   }

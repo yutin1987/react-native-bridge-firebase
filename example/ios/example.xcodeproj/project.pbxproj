@@ -12,7 +12,6 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* exampleTests.m */; };
-		02C51CBE1E24D91C00EA9BDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C51CBD1E24D91C00EA9BDE /* GoogleService-Info.plist */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -22,17 +21,17 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		29D8BF6E384B4F4E93EFF113 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A835E120C6432AB71C17DE /* GoogleInterchangeUtilities.framework */; };
-		326CBFF380F244AEA0105660 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3755D24DED4F4197572CDC /* FirebaseCore.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		6989268225D844C0A6E05713 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3ACCEF32BA940F6A6307A4B /* GoogleToolboxForMac.framework */; };
-		6D0EAB560E864D6A8A9EF254 /* libRNBridgeFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DCD25AA4A7498F90A1C8DF /* libRNBridgeFirebase.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		8A32106AE0424D39AFEC459B /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B180BD7C8C146DEA4A76588 /* FirebaseAnalytics.framework */; };
-		A86B6304B7CF492F9031BA2C /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFAA516721649E58D0E93E2 /* FirebaseInstanceID.framework */; };
-		C68C813E083946AEB1046A54 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FA993159B44EDF9FA87EE4 /* FirebaseMessaging.framework */; };
-		D9B07C49C84346D082146C8D /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A071F5844CCC4BF99877A270 /* FirebaseRemoteConfig.framework */; };
-		DF583ACFDAD64C5F828C8225 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261FA6A7EA6C42C2939853F2 /* GoogleSymbolUtilities.framework */; };
+		E0B4855862624AB0902123E8 /* libRNBridgeFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA55384225484E1892DABE9B /* libRNBridgeFirebase.a */; };
+		52BAF666F9F64185BEDBBCB7 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CDE27F22664BB9B9A95FA7 /* FirebaseAnalytics.framework */; };
+		A62660F6ED3542A28B3E5A9C /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA64AB75B4344A36B88AAD12 /* FirebaseCore.framework */; };
+		43D2AC55A6DF461A8232155E /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBF4EC65C42450FB479ED4E /* FirebaseInstanceID.framework */; };
+		5DEAEC2C83404B558E6250A9 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D611AE114EAD4DA38D63730C /* FirebaseMessaging.framework */; };
+		EE6E9E1FD9B64BB2B504FC12 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A72CB9EB27247978D6CAF01 /* FirebaseRemoteConfig.framework */; };
+		F3759657296C4E7A9DC48FCF /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E6096CB8F349428CCED526 /* GoogleInterchangeUtilities.framework */; };
+		6CFE291478E84E16B6146C0A /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F2490AB02543F8A854F73E /* GoogleSymbolUtilities.framework */; };
+		6259A527D1A540F7ADC13B7B /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DCE78807B74F0DB5D158AE /* GoogleToolboxForMac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,62 +76,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = example;
-		};
-		02C51C9F1E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A283A1D9B042B00D4039D;
-			remoteInfo = "RCTImage-tvOS";
-		};
-		02C51CA31E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28471D9B043800D4039D;
-			remoteInfo = "RCTLinking-tvOS";
-		};
-		02C51CA71E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
-			remoteInfo = "RCTNetwork-tvOS";
-		};
-		02C51CAB1E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28611D9B046600D4039D;
-			remoteInfo = "RCTSettings-tvOS";
-		};
-		02C51CAF1E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
-			remoteInfo = "RCTText-tvOS";
-		};
-		02C51CB41E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
-			remoteInfo = "RCTWebSocket-tvOS";
-		};
-		02C51CB81E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
-			remoteInfo = "React-tvOS";
-		};
-		02C51CBB1E24D89200EA9BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20D8BAD9CFE24B66975D1A01 /* RNBridgeFirebase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNBridgeFirebase;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -195,9 +138,6 @@
 		00E356EE1AD99517003FC87E /* exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exampleTests.m; sourceTree = "<group>"; };
-		02C51CBD1E24D91C00EA9BDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "example/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		08A835E120C6432AB71C17DE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; };
-		0DFAA516721649E58D0E93E2 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseInstanceID.framework"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,17 +148,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = example/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = example/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		20D8BAD9CFE24B66975D1A01 /* RNBridgeFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNBridgeFirebase.xcodeproj; path = "../node_modules/react-native-bridge-firebase/ios/RNBridgeFirebase.xcodeproj"; sourceTree = "<group>"; };
-		261FA6A7EA6C42C2939853F2 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; };
-		2B180BD7C8C146DEA4A76588 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
-		32FA993159B44EDF9FA87EE4 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseMessaging.framework"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		6E3755D24DED4F4197572CDC /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseCore.framework"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A071F5844CCC4BF99877A270 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; };
-		C3ACCEF32BA940F6A6307A4B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
-		E5DCD25AA4A7498F90A1C8DF /* libRNBridgeFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNBridgeFirebase.a; sourceTree = "<group>"; };
+		05DE3E7805964CB8860CEB7C /* RNBridgeFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNBridgeFirebase.xcodeproj"; path = "../node_modules/react-native-bridge-firebase/ios/RNBridgeFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		CA55384225484E1892DABE9B /* libRNBridgeFirebase.a */ = {isa = PBXFileReference; name = "libRNBridgeFirebase.a"; path = "libRNBridgeFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B4CDE27F22664BB9B9A95FA7 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; name = "FirebaseAnalytics.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseAnalytics.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		AA64AB75B4344A36B88AAD12 /* FirebaseCore.framework */ = {isa = PBXFileReference; name = "FirebaseCore.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		DBBF4EC65C42450FB479ED4E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; name = "FirebaseInstanceID.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseInstanceID.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D611AE114EAD4DA38D63730C /* FirebaseMessaging.framework */ = {isa = PBXFileReference; name = "FirebaseMessaging.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseMessaging.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0A72CB9EB27247978D6CAF01 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; name = "FirebaseRemoteConfig.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A2E6096CB8F349428CCED526 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; name = "GoogleInterchangeUtilities.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B7F2490AB02543F8A854F73E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; name = "GoogleSymbolUtilities.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D7DCE78807B74F0DB5D158AE /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; name = "GoogleToolboxForMac.framework"; path = "../node_modules/react-native-bridge-firebase/ios/Frameworks/GoogleToolboxForMac.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,15 +187,15 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				6D0EAB560E864D6A8A9EF254 /* libRNBridgeFirebase.a in Frameworks */,
-				8A32106AE0424D39AFEC459B /* FirebaseAnalytics.framework in Frameworks */,
-				326CBFF380F244AEA0105660 /* FirebaseCore.framework in Frameworks */,
-				A86B6304B7CF492F9031BA2C /* FirebaseInstanceID.framework in Frameworks */,
-				C68C813E083946AEB1046A54 /* FirebaseMessaging.framework in Frameworks */,
-				D9B07C49C84346D082146C8D /* FirebaseRemoteConfig.framework in Frameworks */,
-				29D8BF6E384B4F4E93EFF113 /* GoogleInterchangeUtilities.framework in Frameworks */,
-				DF583ACFDAD64C5F828C8225 /* GoogleSymbolUtilities.framework in Frameworks */,
-				6989268225D844C0A6E05713 /* GoogleToolboxForMac.framework in Frameworks */,
+				E0B4855862624AB0902123E8 /* libRNBridgeFirebase.a in Frameworks */,
+				52BAF666F9F64185BEDBBCB7 /* FirebaseAnalytics.framework in Frameworks */,
+				A62660F6ED3542A28B3E5A9C /* FirebaseCore.framework in Frameworks */,
+				43D2AC55A6DF461A8232155E /* FirebaseInstanceID.framework in Frameworks */,
+				5DEAEC2C83404B558E6250A9 /* FirebaseMessaging.framework in Frameworks */,
+				EE6E9E1FD9B64BB2B504FC12 /* FirebaseRemoteConfig.framework in Frameworks */,
+				F3759657296C4E7A9DC48FCF /* GoogleInterchangeUtilities.framework in Frameworks */,
+				6CFE291478E84E16B6146C0A /* GoogleSymbolUtilities.framework in Frameworks */,
+				6259A527D1A540F7ADC13B7B /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +222,6 @@
 			isa = PBXGroup;
 			children = (
 				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
-				02C51CA01E24D89200EA9BDE /* libRCTImage-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -289,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
-				02C51CA81E24D89200EA9BDE /* libRCTNetwork-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -319,19 +259,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		02C51C971E24D89100EA9BDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				02C51CBC1E24D89200EA9BDE /* libRNBridgeFirebase.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
-				02C51CAC1E24D89200EA9BDE /* libRCTSettings-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -340,7 +271,6 @@
 			isa = PBXGroup;
 			children = (
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
-				02C51CB51E24D89200EA9BDE /* libRCTWebSocket-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,7 +278,6 @@
 		13B07FAE1A68108700A75B9A /* example */ = {
 			isa = PBXGroup;
 			children = (
-				02C51CBD1E24D91C00EA9BDE /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -364,24 +293,8 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
-				02C51CB91E24D89200EA9BDE /* libReact-tvOS.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5474E6F67A234912A0FD0CC5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2B180BD7C8C146DEA4A76588 /* FirebaseAnalytics.framework */,
-				6E3755D24DED4F4197572CDC /* FirebaseCore.framework */,
-				0DFAA516721649E58D0E93E2 /* FirebaseInstanceID.framework */,
-				32FA993159B44EDF9FA87EE4 /* FirebaseMessaging.framework */,
-				A071F5844CCC4BF99877A270 /* FirebaseRemoteConfig.framework */,
-				08A835E120C6432AB71C17DE /* GoogleInterchangeUtilities.framework */,
-				261FA6A7EA6C42C2939853F2 /* GoogleSymbolUtilities.framework */,
-				C3ACCEF32BA940F6A6307A4B /* GoogleToolboxForMac.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -397,7 +310,6 @@
 			isa = PBXGroup;
 			children = (
 				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
-				02C51CA41E24D89200EA9BDE /* libRCTLinking-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -416,7 +328,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				20D8BAD9CFE24B66975D1A01 /* RNBridgeFirebase.xcodeproj */,
+				05DE3E7805964CB8860CEB7C /* RNBridgeFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -425,7 +337,6 @@
 			isa = PBXGroup;
 			children = (
 				832341B51AAA6A8300B99B32 /* libRCTText.a */,
-				02C51CB01E24D89200EA9BDE /* libRCTText-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,7 +348,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* exampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				5474E6F67A234912A0FD0CC5 /* Frameworks */,
+				D6B2AF2A6F0440259554EEA1 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -451,6 +362,22 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		D6B2AF2A6F0440259554EEA1 /* Frameworks */ = {
+			isa = "PBXGroup";
+			children = (
+				B4CDE27F22664BB9B9A95FA7 /* FirebaseAnalytics.framework */,
+				AA64AB75B4344A36B88AAD12 /* FirebaseCore.framework */,
+				DBBF4EC65C42450FB479ED4E /* FirebaseInstanceID.framework */,
+				D611AE114EAD4DA38D63730C /* FirebaseMessaging.framework */,
+				0A72CB9EB27247978D6CAF01 /* FirebaseRemoteConfig.framework */,
+				A2E6096CB8F349428CCED526 /* GoogleInterchangeUtilities.framework */,
+				B7F2490AB02543F8A854F73E /* GoogleSymbolUtilities.framework */,
+				D7DCE78807B74F0DB5D158AE /* GoogleToolboxForMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -503,9 +430,6 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 75J9X8LPMB;
 					};
 				};
 			};
@@ -565,10 +489,6 @@
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
-				{
-					ProductGroup = 02C51C971E24D89100EA9BDE /* Products */;
-					ProjectRef = 20D8BAD9CFE24B66975D1A01 /* RNBridgeFirebase.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -612,62 +532,6 @@
 			fileType = archive.ar;
 			path = libRCTVibration.a;
 			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CA01E24D89200EA9BDE /* libRCTImage-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRCTImage-tvOS.a";
-			remoteRef = 02C51C9F1E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CA41E24D89200EA9BDE /* libRCTLinking-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRCTLinking-tvOS.a";
-			remoteRef = 02C51CA31E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CA81E24D89200EA9BDE /* libRCTNetwork-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRCTNetwork-tvOS.a";
-			remoteRef = 02C51CA71E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CAC1E24D89200EA9BDE /* libRCTSettings-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRCTSettings-tvOS.a";
-			remoteRef = 02C51CAB1E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CB01E24D89200EA9BDE /* libRCTText-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRCTText-tvOS.a";
-			remoteRef = 02C51CAF1E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CB51E24D89200EA9BDE /* libRCTWebSocket-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRCTWebSocket-tvOS.a";
-			remoteRef = 02C51CB41E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CB91E24D89200EA9BDE /* libReact-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libReact-tvOS.a";
-			remoteRef = 02C51CB81E24D89200EA9BDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		02C51CBC1E24D89200EA9BDE /* libRNBridgeFirebase.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNBridgeFirebase.a;
-			remoteRef = 02C51CBB1E24D89200EA9BDE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
@@ -735,7 +599,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				02C51CBE1E24D91C00EA9BDE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,6 +666,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = exampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example.app/example";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"../node_modules/react-native-bridge-firebase/ios/Frameworks\"",
@@ -814,19 +690,6 @@
 					"\"../node_modules/react-native-bridge-firebase/ios/Frameworks\"",
 					"\"../node_modules/react-native-bridge-firebase/ios/Frameworks\"",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = exampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example.app/example";
 			};
 			name = Debug;
 		};
@@ -835,6 +698,15 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = exampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example.app/example";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"../node_modules/react-native-bridge-firebase/ios/Frameworks\"",
@@ -846,15 +718,6 @@
 					"\"../node_modules/react-native-bridge-firebase/ios/Frameworks\"",
 					"\"../node_modules/react-native-bridge-firebase/ios/Frameworks\"",
 				);
-				INFOPLIST_FILE = exampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example.app/example";
 			};
 			name = Release;
 		};
@@ -864,7 +727,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 75J9X8LPMB;
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -882,7 +744,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 75J9X8LPMB;
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -915,9 +776,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/../node_modules/react-native-bridge-firebase/ios/Frameworks/",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -942,6 +800,9 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/react-native-bridge-firebase/ios/Frameworks/",
+				);
 			};
 			name = Debug;
 		};
@@ -966,9 +827,6 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/../node_modules/react-native-bridge-firebase/ios/Frameworks/",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -986,6 +844,9 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/react-native-bridge-firebase/ios/Frameworks/",
+				);
 			};
 			name = Release;
 		};
