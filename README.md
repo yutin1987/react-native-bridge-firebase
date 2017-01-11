@@ -2,6 +2,8 @@
 
 Can easy to use Analytics/Crash/Config/Message of Firebase on ReactNative
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## iOS Setup
 
 1. install react-native-bridge-firebase
