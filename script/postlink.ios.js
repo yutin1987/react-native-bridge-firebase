@@ -36,11 +36,11 @@ pbxproj.parse((err) => {
     .forEach(ref => {
       const buildSettings = config[ref].buildSettings;
       const shouldVisitBuildSettings = (
-          Array.isArray(buildSettings.HEADER_SEARCH_PATHS) ?
-            buildSettings.HEADER_SEARCH_PATHS : []
+          Array.isArray(buildSettings.OTHER_LDFLAGS) ?
+            buildSettings.OTHER_LDFLAGS :
+            []
         )
-        .filter(path => path.indexOf('react-native/React/**') >= 0)
-        .length > 0;
+        .indexOf('"-lc++"') >= 0;
 
       if (shouldVisitBuildSettings) {
         const searchPaths = (
